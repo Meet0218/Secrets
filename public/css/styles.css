@@ -1,16 +1,25 @@
-
 body {
   background-color: #E8ECEF;
 }
 
 .centered {
-    padding-top: 200px;
-    text-align: center;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.row-dir{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .secret-text {
-  text-align: center;
-  font-size: 2rem;
+  height: 200px;
+  width: 170px;
+  display: inline-block;
+  background-color: #343a40;
   color: #fff;
-  background-color: #000;
+  font-size: 2rem;
+  margin: 9px;
+  padding-top: 20px;
 }
