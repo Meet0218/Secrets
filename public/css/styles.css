@@ -7,14 +7,14 @@ body {
   text-align: center;
 }
 
-.row-dir{
+.row-dir {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
 .secret-text {
-  height: 200px;
+  height: 180px;
   width: 170px;
   display: inline-block;
   background-color: #343a40;
@@ -22,4 +22,17 @@ body {
   font-size: 2rem;
   margin: 9px;
   padding-top: 20px;
+}
+
+.secrets-title {
+  height: auto;
+  width: 60%;
+  background-color: #343a40;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.title-div {
+  display: flex;
+  justify-content: center;
 }
